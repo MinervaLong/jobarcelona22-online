@@ -1,0 +1,45 @@
+[
+    {
+        "id": "01",
+        "title": "Crew",
+        "emoji": "crew",
+        "description": "List of presents for my work colleagues",
+        "tags": ["Secret Santa", "Books"]
+    },
+    {
+        "id": "02",
+        "title": "Family",
+        "emoji": "family",
+        "description": "List of presents for my relatives",
+        "tags": ["Birthday", "Experiences"]
+    },
+    {
+        "id": "03",
+        "title": "Partner",
+        "emoji": "partner",
+        "description": "List of presents for my partner",
+        "tags": ["Sport", "Clothes", "Books"]
+    },
+    {
+        "id": "04",
+        "title": "Friends",
+        "emoji": "friends",
+        "description": "List of presents for my friendss",
+        "tags": ["WTF", "Games", "Experiences"]
+    },
+    {
+        "id": "05",
+        "title": "ForMyself",
+        "emoji": "party",
+        "description": "List of presents for myself",
+        "tags": ["Food", "Books", "Other"]
+    },
+    {
+        "id": "06",
+        "title": "Others",
+        "emoji": "flower",
+        "description": "List of presents with no group category",
+        "tags": ["Mugs", "Books"]
+    }
+
+]
