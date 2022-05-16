@@ -1,9 +1,9 @@
-import PresentsListViews from "./components/PresentsListViews";
+import PresentsListView from "./components/PresentsListView";
 
 const App = () => {
   return (
     <main>
-      <PresentsListViews />
+      <PresentsListView />
     </main>
   );
 }
