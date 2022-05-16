@@ -1,11 +1,10 @@
-import PresentsGroup from "./components/PresentsGroup";
+import PresentsListView from "./components/PresentsListView";
 
 const App = () => {
   return (
-    <div>
-      <h1>Presents Management App</h1>
-      <PresentsGroup />
-    </div>
+    <main>
+      <PresentsListView />
+    </main>
   );
 }
 
