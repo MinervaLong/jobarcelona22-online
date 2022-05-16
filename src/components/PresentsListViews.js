@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import PresentsGroup from './PresentsGroup'
 
 const PresentsListViews = () => {
   return (
-    <div>PresentsListViews</div>
+    <section className='listView'>
+      <h1 className='listView__title'>Presents Management App</h1>
+      <section className='listView__groupsContainer'>
+        <PresentsGroup />
+      </section>
+    </section>
   )
 }
 
