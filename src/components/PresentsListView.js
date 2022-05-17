@@ -8,9 +8,10 @@ const PresentsListView = () => {
       <h1 className='listView__title'>Presents Management App</h1>
       <section className='listView__groupsContainer'>
         {groups.map(group =>(
-          <PresentsGroup 
+          <PresentsGroup
+          key={group.id} 
           title={group.title}
-          icon={group.emoji}
+          emo={group.emoji}
           description={group.description}
           tags={group.tags}
           />
