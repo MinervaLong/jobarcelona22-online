@@ -13,7 +13,6 @@ GroupTitle.propTypes = {
     label: PropTypes.string,
     margin: PropTypes.number,
     fontWeigth: PropTypes.string,
-    getIcon: PropTypes.string,
 }
 
 export default GroupTitle;

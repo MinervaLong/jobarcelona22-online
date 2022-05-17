@@ -16,7 +16,6 @@ GroupDesc.propTypes = {
     marginTop: PropTypes.string,
     marginBottom: PropTypes.string,
     fontSize: PropTypes.string,
-    getIcon: PropTypes.string,
 }
 
 export default GroupDesc;
