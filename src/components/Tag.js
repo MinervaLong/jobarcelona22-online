@@ -1,7 +1,7 @@
 import './../styles/sass/App.scss';
 import PropTypes from "prop-types";
 
-const ButtonTag = ({label, size = "sm", backgroundColor = "#57922A", color= '#FFF', handleClick}) => {
+const Tag = ({label, size = "sm", backgroundColor = "#57922A", color= '#FFF', handleClick}) => {
     let scale = 1
     if (size === "sm") scale = 0.75
     if (size === "lg") scale = 1.2
@@ -18,7 +18,7 @@ const ButtonTag = ({label, size = "sm", backgroundColor = "#57922A", color= '#FF
     )
 }
 
-ButtonTag.propTypes = {
+Tag.propTypes = {
     label: PropTypes.string,
     backgroundColor: PropTypes.string,
     color: PropTypes.string,
@@ -27,4 +27,4 @@ ButtonTag.propTypes = {
     handleClick: PropTypes.func,
 }
 
-export default ButtonTag;
+export default Tag;

@@ -1,35 +1,21 @@
 import React from 'react';
-import ButtonTag from '../../components/ButtonTag'
+import Tag from '../../components/Tag'
 
 export default {
     title: "Tag",
-    component: ButtonTag,
+    component: Tag,
     argTypes: {handleClick: {action: "Possible function to filter by tag"}},
 }
 
-const Template = (args) => <ButtonTag {...args} />
+const Template = (args) => <Tag {...args} />
 
 
-export const SmallTag = Template.bind({})
-SmallTag.args = {
+export const DefTag = Template.bind({})
+DefTag.args = {
     backgrounColor: "#57922A",
     color: "#FFF",
-    label: "",
+    label: "Press me",
     size: "sm",
 }
 
-export const MediumTag = Template.bind({})
-MediumTag.args = {
-    backgrounColor: "#57922A",
-    color: "#FFF",
-    label: "",
-    size: "md",
-}
 
-export const LargeTag = Template.bind({})
-LargeTag.args = {
-    backgrounColor: "#57922A",
-    color: "#FFF",
-    label: "",
-    size: "lg",
-}
