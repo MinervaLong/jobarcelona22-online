@@ -1,4 +1,3 @@
-import React from 'react';
 import HeaderListView from '../components/HeaderListView';
 
 export default {
@@ -12,8 +11,9 @@ const Template = (args) => <HeaderListView {...args} />
 export const Header = Template.bind({})
 Header.args = {
     text: "This is a header",
-    height: "250px",
+    textAlign: "center",
+    height: "270px",
     marginBottom: "5%",
-    backgroundColor: "green",
+    backgroundColor: "#B7DD9B",
 }
 

@@ -1,7 +1,7 @@
 import './../styles/sass/App.scss';
 import PropTypes from "prop-types";
 
-const GroupTitle = ({label, margin = 0, fontWeigth = '500', getIcon}) => {
+const GroupTitle = ({label, margin = '0', fontWeigth = '500', getIcon}) => {
     const style = {
         margin,
         fontWeigth,
@@ -11,7 +11,7 @@ const GroupTitle = ({label, margin = 0, fontWeigth = '500', getIcon}) => {
 
 GroupTitle.propTypes = {
     label: PropTypes.string,
-    margin: PropTypes.number,
+    margin: PropTypes.string,
     fontWeigth: PropTypes.string,
 }
 
