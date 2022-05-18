@@ -14,8 +14,8 @@ export const Group = Template.bind({})
 Group.args = {
     border: "1px solid rgb(48, 13, 87)",
     borderRadius: "5px", 
-    margin: "2%", 
+    margin: "8%", 
     padding: "3%",
-    width: "90%", 
+    width: "85%", 
 }
 
