@@ -30,7 +30,7 @@ const PresentsGroup = (
 
 
   const [hover, setHover] = useState(false)
-  const symbol = emoji.getUnicode(emo) 
+  const symbol = emoji.getUnicode(emo) // Story book doesn't accept this property
   const tagList = tags.map((tag,idx) => (
     <Tag key={idx} label={tag} />
   ))
