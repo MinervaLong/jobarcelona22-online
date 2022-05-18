@@ -11,11 +11,11 @@ const PresentsGroup = (
     emo, 
     description, 
     tags, 
-    border = "1px solid rgb(110, 44, 185)", 
+    border = "1px solid rgb(48, 13, 87)", 
     borderRadius = "5px", 
-    margin = "2%", 
+    margin = "8%", 
     padding = "3%", 
-    width = "90%", 
+    width = "85%", 
     handleClick,
   }
     ) => {

@@ -65,8 +65,33 @@
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
+
+       
+    }
+
+    .listView__groupsContainer--horizontal {
+        border: 3px solid #15792f;
+        width: 90%;
+        height: 270px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+
+        .listView__groupsContainer--scroller {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 31%;
+            gap: 1rem;
+            overflow-x: auto;
+            overscroll-behavior-inline: contain;
+        }
     }
 }
+
+    
 
 
 /*PresentsGroup Component*/
@@ -92,7 +117,7 @@
 
         .group__tag {
             border: 1px solid #1C953B;
-            margin-right: 8%;
+            margin-right: 5%;
             font-weight: bold;              
 
         }
