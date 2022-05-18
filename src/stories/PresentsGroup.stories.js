@@ -1,5 +1,5 @@
 import React from 'react';
-import PresentsGroup from '../../components/PresentsGroup';
+import PresentsGroup from '../components/PresentsGroup';
 
 export default {
     title: "PresentsGroup",

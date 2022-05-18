@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderListView from '../../components/HeaderListView';
+import HeaderListView from '../components/HeaderListView';
 
 export default {
     title: "HeaderListView",
