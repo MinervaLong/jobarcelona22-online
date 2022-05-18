@@ -1,4 +1,3 @@
-import React from 'react';
 import GroupTitle from '../components/GroupTitle';
 
 export default {
@@ -13,5 +12,5 @@ export const Title = Template.bind({})
 Title.args = {
     label: "This is a heading",
     fontWeight: "500",
-    margin: 0,
+    margin: '0',
 }
