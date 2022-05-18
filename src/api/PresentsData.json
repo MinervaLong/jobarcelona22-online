@@ -3,7 +3,7 @@
         "id": "01",
         "title": "Crew",
         "emoji": "tada",
-        "description": "List of presents for my work colleagues",
+        "description": "List of presents for my workmates",
         "tags": ["Secret Santa", "Books"]
     },
     {
@@ -38,7 +38,7 @@
         "id": "06",
         "title": "Others",
         "emoji": "blossom",
-        "description": "List of presents with no group category",
+        "description": "List of presents without group",
         "tags": ["Mugs", "Books"]
     }
 
