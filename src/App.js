@@ -1,8 +1,10 @@
-
+import PresentsListView from "./components/PresentsListView";
 
 const App = () => {
   return (
-    <div>Presents Management App</div>
+    <main>
+      <PresentsListView />
+    </main>
   );
 }
 
