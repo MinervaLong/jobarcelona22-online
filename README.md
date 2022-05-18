@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# IT JUNIOR HACKATHON - JOBarcelona'22
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Competición multidisciplinar de programación y negocios dividida en dos fases. Una primera fase online con un reto individual, objeto de este repositorio, y una segunda fase presencial por equipos con los 12 mejores candidatos de cada categoría:
 
-## Available Scripts
+* Front-end
+* Back-end
+* Data Science
+* Business Analytics
 
-In the project directory, you can run:
+La organización corre a cargo de [Nuwe](https://nuwe.io).
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Este repositorio es el reto individual de Front-end, que consiste en hacer un componente para visualizar una lista de regalos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Stack utilizado
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+HTML5 | CSS3 | SASS | JAVASCRIPT | REACT 
 
-### `npm run build`
+## Otras librerías
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Storybook](Storybook.js.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[emoji-dictionary](https://www.npmjs.com/package/emoji-dictionary)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[prop-types](https://www.npmjs.com/package/prop-types)
 
-### `npm run eject`
+## Distribución de carpetas 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![folders](https://user-images.githubusercontent.com/54006453/169149648-ff19a56d-0305-4b10-a695-86ef63ab3103.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## User stories (extraídas de la web de Nuwe):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Task 1: Crear un componente con un título y un grupo de regalos que contenga la siguiente información: Título, Descripción, Tags del grupo.
+* Task 2: Asegurarse que el componente sea responsive: Adopta un modo de scroll horizontal para PC, Adopta modo lista para Móvil y Tablet.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Además se debía documentar los componentes con la librería Storybook y utilizar un sistema lo más atómico posible. Para completar la información era necesario desbloquear la contraseña de un documento pdf con la propuesta de diseño del componente.
 
-## Learn More
+## Instalación
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clonar el repositorio
+ ```shell
+    git clone https://github.com/your_username_/Project-Name.git
+ ```
+ 
+ 2. Instalar los paquetes NPM
+ ```shell
+    npm install
+ ```
+ 
+ 3. Iniciar el proyecto
+ ```shell
+    npm start
+ ```
+ 
+ Si se desea modificar hay que ejecutar los siguientes comandos en terminales distintas:
+ 
+ * npm run sass
+ * npm run storybook
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Muestra del resultado final
 
-### Code Splitting
+![desktop-view](https://user-images.githubusercontent.com/54006453/169149512-0a834c14-1984-4aa6-9614-44e28a0e7010.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribución
 
-### Analyzing the Bundle Size
+Tratándose de un reto para una Hackathon, este proyecto no está abierto a contribuciones pero se recomienda como ejercicio de aprendizaje intentar replicarlo y mejorarlo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
