@@ -1,6 +1,7 @@
 import React from 'react';
-import PresentsGroup from './PresentsGroup'
-import groups from './../api/PresentsData.json'
+import PresentsGroup from './PresentsGroup';
+import groups from './../api/PresentsData.json';
+import HeaderListView from './HeaderListView';
 
 const PresentsListView = () => {
   const presentsGroup = groups.map(group =>(
@@ -12,10 +13,10 @@ const PresentsListView = () => {
       tags={group.tags}
       />
     ))
-    
+
   return (
     <section className='listView'>
-      <h1 className='listView__title'>Presents Management App</h1>
+      <HeaderListView />
       <section className='listView__groupsContainer'>{presentsGroup}</section>
     </section>
   )
