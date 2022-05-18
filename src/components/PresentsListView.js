@@ -1,4 +1,3 @@
-import React from 'react';
 import PresentsGroup from './PresentsGroup';
 import groups from './../api/PresentsData.json';
 import HeaderListView from './HeaderListView';
@@ -10,7 +9,7 @@ const PresentsListView = () => {
   const { width } = useViewPort();
   const breakpoint = 801;
 
-  const presentsGroup = groups.map(group =>(
+  const presentsGroup = groups.map(group =>(  // Map the json & generate groups passing data as props
       <PresentsGroup
       key={group.id} 
       title={group.title}

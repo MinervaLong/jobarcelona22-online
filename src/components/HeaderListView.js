@@ -4,15 +4,16 @@ import PropTypes from "prop-types";
 const HeaderListView = (
     {
     textAlign = "center",
-    height = "250px",
+    height = "270px",
     marginBottom = "5%",
-    backgroundColor = "green",
+    backgroundColor = "#B7DD9B",
     }) => {
 
     const style = {
         height,
         marginBottom,
-        backgroundColor
+        backgroundColor,
+        textAlign
     }
     return (
         <header style={style}>

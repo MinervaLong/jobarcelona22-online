@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './../styles/sass/App.scss';
-import emoji from 'emoji-dictionary';
+// Story book doesn't works well with emoji library and throw an error due to React 18 incompatibilities
+import emoji from 'emoji-dictionary'; 
 import Tag from './Tag';
 import GroupTitle from './GroupTitle';
 import GroupDesc from './GroupDescription';
@@ -13,7 +14,7 @@ const PresentsGroup = (
     tags, 
     border = "1px solid rgb(48, 13, 87)", 
     borderRadius = "5px", 
-    margin = "8%", 
+    margin = "5%", 
     padding = "3%", 
     width = "85%", 
     handleClick,
@@ -28,20 +29,22 @@ const PresentsGroup = (
     width, 
   }
 
-
+  // Hover state to apply the styles when mouse is over the group component
   const [hover, setHover] = useState(false)
-  const symbol = emoji.getUnicode(emo) // Story book doesn't accept this property
+  // Get the emoji from the word stored in json data
+  const symbol = emoji.getUnicode(emo)
+   
   const tagList = tags.map((tag,idx) => (
     <Tag key={idx} label={tag} />
   ))
  
   return (   
     <section
-    className={`group ${hover && 'group:hover'}`} 
+    className={`group ${hover && 'group:hover'}`} // Conditional classes
     style={style}
     onMouseEnter={() => setHover(true)}
     onMouseLeave={() => setHover(false)} 
-    onClick={handleClick}
+    onClick={handleClick} // Function prepared for when action is defined
     >
     
       <GroupTitle label={title} getIcon={symbol} />

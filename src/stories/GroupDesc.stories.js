@@ -1,4 +1,3 @@
-import React from 'react';
 import GroupDesc from '../components/GroupDescription';
 
 export default {
