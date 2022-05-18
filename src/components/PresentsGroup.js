@@ -49,8 +49,8 @@ const PresentsGroup = (
       <div className='group__tagsContainer'>
         {tagList}
       </div>
-    </section>
-    
+    </section>    
+
   )
 }
 
