@@ -1,7 +1,7 @@
 import './../styles/sass/App.scss';
 import PropTypes from "prop-types";
 
-const Tag = ({label, size = "sm", backgroundColor = "#57922A", color= '#FFF', handleClick}) => {
+const Tag = ({label, size = "sm", backgroundColor = "#6BD12F", color= '#FFF', handleClick}) => {
     let scale = 1
     if (size === "sm") scale = 0.75
     if (size === "lg") scale = 1.2
@@ -9,7 +9,6 @@ const Tag = ({label, size = "sm", backgroundColor = "#57922A", color= '#FFF', ha
     const style = {
       backgroundColor,
       padding: `${scale * 0.25}rem ${scale * 1}rem`,
-      border: "none",
       color: color,
       borderRadius: "15px",    
     }

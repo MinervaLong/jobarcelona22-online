@@ -12,7 +12,7 @@ const Template = (args) => <Tag {...args} />
 
 export const DefTag = Template.bind({})
 DefTag.args = {
-    backgrounColor: "#57922A",
+    backgrounColor: "#6BD12F",
     color: "#FFF",
     label: "Press me",
     size: "sm",
