@@ -17,7 +17,7 @@ const HeaderListView = (
     return (
         <header style={style}>
             <div className='listView__titleWrapper'>
-                <h1 className='listView__title'>PRESENTS MANAGEMENT APP</h1>
+                <h1 className='listView__title'>PRESENTS MANAGEMENT</h1>
             </div>
             
         </header>
